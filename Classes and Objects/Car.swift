@@ -32,7 +32,7 @@ class Car {
     }
     
     func drive() {
-        print("car is moving")
+        print("The \(color), \(numberOfSeats) door \(typeOfCar) is in motion.")
     }
     
 }
