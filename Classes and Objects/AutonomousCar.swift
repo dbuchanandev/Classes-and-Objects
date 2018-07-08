@@ -10,10 +10,14 @@ import Foundation
 
 class AutonomousCar: Car {
     
-    var destination: String = "1 Inifinite Loop"
+    var destination: String?
     
     override func drive() {
-        print("The \(color), \(numberOfSeats) door Tesla is driving itself to \(destination).")
+        if let userDestination = destination {
+            print("The \(color), \(numberOfSeats) door Tesla is driving itself to \(userDestination).")
+        } else {
+            print("No destination is set.")
+        }
     }
     
     convenience init(destination: String) {
