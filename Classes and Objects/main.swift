@@ -11,4 +11,9 @@ import Foundation
 let myCar = Car()
 let myOtherCar = Car(color: "Red", numberOfSeats: 4, typeOfCar: .Sedan)
 
+let myTesla = AutonomousCar()
+
 myCar.drive()
+
+myTesla.drive()
+print(myTesla.color)
