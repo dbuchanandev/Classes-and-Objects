@@ -8,9 +8,13 @@
 
 import Foundation
 
-let myCar = Car(color: "Red", numberOfSeats: 4, typeOfCar: .Sedan)
+let myFirstCar = Car(color: "Red", numberOfSeats: 4, typeOfCar: .Sedan)
+let myOtherCar = Car()
 
-print(myCar.color)
-print(myCar.numberOfSeats)
-print(myCar.typeOfCar)
+print(myFirstCar.color)
+print(myFirstCar.numberOfSeats)
+print(myFirstCar.typeOfCar)
 
+print(myOtherCar.color)
+print(myOtherCar.numberOfSeats)
+print(myOtherCar.typeOfCar)
