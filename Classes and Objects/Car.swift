@@ -31,4 +31,8 @@ class Car {
         self.typeOfCar = typeOfCar
     }
     
+    func drive() {
+        print("car is moving")
+    }
+    
 }
